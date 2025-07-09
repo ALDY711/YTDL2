@@ -1,0 +1,15 @@
+{
+  "name": "youtube-downloader-vercel",
+  "version": "1.0.0",
+  "description": "A YouTube downloader deployable on Vercel.",
+  "main": "index.html",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.11.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
